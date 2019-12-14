@@ -12,4 +12,4 @@
 `pip install -U wxpy`<br>
 2.从豆瓣 PYPI 镜像源下载安装 (推荐国内用户选用):<br>
 `pip install -U wxpy -i "https://pypi.doubanio.com/simple/"`<br>
-##等待更新
+## 等待更新
