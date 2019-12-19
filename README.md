@@ -10,8 +10,6 @@
 ## 安装依赖库
 1.从豆瓣 PYPI 镜像源下载wxpy库安装:<br>
 `pip install -U wxpy -i "https://pypi.doubanio.com/simple/"`<br>
-2.下载安装xlrd库:<br>
-`pip install xlrd`<br>
-3.下载安装xlwt库:<br>
+2.下载安装xlwt库:<br>
 `pip install xlwt`<br>
 ## 等待更新
