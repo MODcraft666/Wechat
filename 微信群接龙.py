@@ -1,6 +1,13 @@
 from wxpy import *
-import load
+#import load
 import os
+
+
+def load_config_to_bot(bot):
+    """加载配置项"""
+    bot_status = '机器人登录成功！！！'
+    print(bot_status)
+    """机器人配置状态"""
 
 if os.path.isfile("接龙信息.txt") == False:
     file = open("接龙信息.txt",'w')
@@ -12,9 +19,11 @@ if os.path.isfile("接龙信息.txt") == False:
 # console_qr表示在控制台打出二维码，部署到服务器时需要加上
 bot = Bot(cache_path=True)
 # 加载配置信息到机器人
-load.load_config_to_bot(bot)
-"""群功能"""
+load_config_to_bot(bot)
 group = bot.groups().search('测试群')[0]
+bot_config_status = '启用接龙的群：'
+d = bot_config_status + str(group)
+print(d)
 @bot.register(group,msg_types=TEXT)
 def group_msg(msg):
     """接收群消息"""
