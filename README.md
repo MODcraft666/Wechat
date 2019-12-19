@@ -12,6 +12,6 @@
 `pip install -U wxpy -i "https://pypi.doubanio.com/simple/"`<br>
 2.下载安装xlrd库:<br>
 `pip install xlrd`<br>
-3.下载安装xlwd库:<br>
+3.下载安装xlwt库:<br>
 `pip install xlwt`<br>
 ## 等待更新
