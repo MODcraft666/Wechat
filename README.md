@@ -7,9 +7,11 @@
 # 使用方法
 ## 下载Python
 [点击我下载Python](http://python.org)
-## 安装wxpy库
-1.从 PYPI 官方源下载安装 (在国内可能比较慢或不稳定):<br>
-`pip install -U wxpy`<br>
-2.从豆瓣 PYPI 镜像源下载安装 (推荐国内用户选用):<br>
+## 安装依赖库
+1.从豆瓣 PYPI 镜像源下载wxpy库安装:<br>
 `pip install -U wxpy -i "https://pypi.doubanio.com/simple/"`<br>
+2.下载安装xlrd库:<br>
+`pip install xlrd`<br>
+3.下载安装xlwd库:<br>
+`pip install xlwt`<br>
 ## 等待更新
